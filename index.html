@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HooBank</title>
+  <link rel="icon" href="./images/favicon.svg">
+  <link rel="stylesheet" href="./css/tailwindcss.css">
+</head>
+
+<body class="flex flex-col h-full font-body bg-bgBox">
+  <header class="header pt-8">
+    <div class="container mx-auto">
+      <div class="header__wrap flex justify-between items-center">
+        <a href="./index.html">
+          <img src="./images/logo.svg" width="119" height="32" alt="HooBank's logo">
+        </a>
+        <button class="toggle-btn sm:hidden" type="button"></button>
+        <img class="close" src="./images/toggle-close.png" width="25" height="25" alt="Toggle close btn">
+        <nav id="nav" class="header__nav sitenav">
+          <ul id="lst" class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link text-white" href="#">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link text-text" href="#">About Us</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link text-text" href="#">Features</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link text-text" href="#">Solutuions</a>
+            </li>
+          </ul>
+        </nav>
+        <span class="hero__bgImg-decor"></span>
+      </div>
+    </div>
+  </header>
+  <main class="grow">
+    <section
+      class="hero relative bg-[length:50%] smd:bg-[length:472px_65%] pt-48 pb-36 lg:pb-0 bg-heroBimg bg-no-repeat">
+      <div class="container mx-auto">
+        <div class="hero__wrap relative max-w-2xl block ">
+          <div class="hero__left">
+            <p class="hero__info inline-flex flex-wrap items-center p-2  rounded-xl text-white bg-heroLinear mb-3">
+              20% <span class="hero__span text-text">DISCOUNT FOR</span> 1 MONTH <span
+                class="hero__span text-text">ACCOUNT</span>
+            </p>
+            <h1 class="hero__title font-semibold text-4xl md:text-7xl text-white mb-10">The Next <br class=""> <span
+                class="hero__spann bg-linear">Generation</span> <br class="">
+              Payment Method.
+            </h1>
+            <span class="hero__decor absolute -top-24 -left-48 inline-block w-48 h-80 bg-white"></span>
+            <p class="hero__desc text-text">
+              Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
+              We examine annual percentage rates, annual fees.
+            </p>
+          </div>
+        </div>
+        <span class="hero__center inline-block rounded-full relative -top-96 left-1/2 m-1 p-11">
+          <a class="get__start font-medium text-lg hero__spann bg-linear" href="#">Get <br class="hidden lg:block">
+            started</a>
+          <svg class="arrowUp" width="22" height="21" viewBox="0 0 22 21" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M4.98978 15.2616C4.75588 14.9828 4.76972 14.5787 5.00787 14.3167L5.07837 14.249L16.0903 5.00891C16.3943 4.75375 16.8477 4.79341 17.1029 5.0975C17.3368 5.37624 17.3229 5.78042 17.0848 6.04238L17.0143 6.1101L6.00238 15.3502C5.69829 15.6053 5.24494 15.5657 4.98978 15.2616Z"
+              fill="white" />
+            <path
+              d="M8.3388 5.57968C7.94328 5.54594 7.65001 5.19795 7.68375 4.80244C7.71443 4.44287 8.00481 4.16781 8.35451 4.14612L8.461 4.14739L16.6133 4.84293C16.9739 4.8737 17.2493 5.16565 17.2698 5.51642L17.2681 5.62321L16.538 13.7731C16.5026 14.1685 16.1534 14.4603 15.758 14.4249C15.3986 14.3927 15.1248 14.1012 15.1045 13.7514L15.1063 13.6449L15.7715 6.2138L8.3388 5.57968Z"
+              fill="white" />
+          </svg>
+        </span>
+      </div>
+    </section>
+    <section class="statistic">
+      <div class="container mx-auto">
+        <h2 class="sr-only">Site statistic</h2>
+        <div
+          class="statistic__list flex flex-col justify-between items-center md:flex-row mx-auto flex-wrap w-full max-w-6xl">
+          <strong class="statistic__strong font-semibold text-3xl md:text-4xl text-white">3800+</strong>
+          <p class="statistic__info hero__spann text-xl bg-linear">
+            User Active
+          </p>
+          <svg class="my-3 md:my-0" width="3" height="15" viewBox="0 0 3 15" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <line x1="1.29968" y1="0.446289" x2="1.29968" y2="14.0771" stroke="white" stroke-opacity="0.6"
+              stroke-width="1.70386" />
+          </svg>
+          <strong class="statistic__strong font-semibold text-3xl md:text-4xl text-white">230+</strong>
+          <p class="statistic__info hero__spann text-xl bg-linear">
+            TRUSTED BY COMPANY
+          </p>
+          <svg class="my-3 md:my-0" width="3" height="15" viewBox="0 0 3 15" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <line x1="1.29968" y1="0.446289" x2="1.29968" y2="14.0771" stroke="white" stroke-opacity="0.6"
+              stroke-width="1.70386" />
+          </svg>
+          <strong class="statistic__strong font-semibold text-3xl md:text-4xl text-white">$230M+</strong>
+          <p class="statistic__info hero__spann text-xl bg-linear">
+            TRANSACTION
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="about pt-44">
+      <div class="container mx-auto">
+        <div class="about__wrap flex flex-col smd:flex-row justify-between items-start smd:items-center">
+          <div class="about__left w-full mb-12">
+            <h2 class="about__title font-semibold text-3xl md:text-5xl mb-6 text-white">You do the business, we’ll
+              handle the money.</h2>
+            <p class="about__desc mb-12 text-text">
+              With the right credit card, you can improve your financial life by building credit, earning rewards and
+              saving money. But with hundreds of credit cards on the market.
+            </p>
+            <a class="about__link inline-block font-medium bg-getStarted py-5 px-8 rounded-xl" href="#">Get started</a>
+          </div>
+          <div class="about__right w-full max-w-md">
+            <ul class="about__list flex flex-col">
+              <li class="about__item relative mb-9 pl-28">
+                <h3 class="about__right-title font-semibold mb-2  text-white">Rewards</h3>
+                <p class="about__right-desc text-white">
+                  The best credit cards offer some tantalizing combinations of promotions and prizes
+                </p>
+              </li>
+              <li
+                class="about__item about__item--active bg-about text-about relative w-full max-w-lg rounded-2xl mb-9 py-3 pl-28">
+                <h3 class="about__right-title font-semibold mb-2  text-white">100% Secured</h3>
+                <p class="about__right-desc text-white">
+                  We take proactive steps make sure your information and transactions are secure.
+                </p>
+              </li>
+              <li class="about__item about__item-active relative mb-9 pl-28">
+                <h3 class="about__right-title font-semibold mb-2  text-white">Balance Transfer</h3>
+                <p class="about__right-desc text-white">
+                  A balance transfer credit card can save you a lot of money in interest charges.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="invoice pt-56">
+      <div class="container mx-auto">
+        <div class="invoice__wrapper flex flex-col lg:flex-row justify-between">
+          <div class="invoice__left">
+            <div
+              class="invoice__left-box bg-invoice text-about relative w-96 p-6  mb-16 mb-xl-none shadow-invoice rounded-lg">
+              <h3 class="invoice__title-left font-semibold text-2xl mb-2 ul:mb-8 text-white">Last Transaction</h3>
+              <ul class="invoice__left-list transaction ">
+                <li class="transaction__item flex justify-between mb-2 ul:mb-6 pl-16">
+                  <div class="transaction__inner ">
+                    <h4 class="transaction__title text-white font-semibold">Dribbble Pro</h4>
+                    <small class="transaction__small text-white opacity-70">15 Days ago</small>
+                  </div>
+                  <span class="transaction__currency text-white">-$250,93</span>
+                </li>
+                <li class="transaction__item flex justify-between mb-2 ul:mb-6 pl-16">
+                  <div class="transaction__inner ">
+                    <h4 class="transaction__title text-white font-semibold">Netflix</h4>
+                    <small class="transaction__small text-white opacity-70">4 Days ago</small>
+                  </div>
+                  <span class="transaction__currency text-white">-$250,93</span>
+                </li>
+                <li class="transaction__item flex justify-between mb-4 ul:mb-0 pl-16">
+                  <div class="transaction__inner ">
+                    <h4 class="transaction__title text-white font-semibold">Manulife Cash</h4>
+                    <small class="transaction__small text-white opacity-70">4 Days ago</small>
+                  </div>
+                  <span class="transaction__currency transaction__currency--active text-white">-$250,93</span>
+                </li>
+              </ul>
+              <div class="invoice__left-mini-box bg-paypal shadow-paypal text-about absolute w-60 p-6 rounded-xl">
+                <div class="invoice__left-mini-box-text-wrap relative  flex flex-col items-start ml-20 mb-6">
+                  <h3 class="invoice__left-mini-box-title text-white font-semibold text-2xl">Paypal</h3>
+                  <small class="invoice__left-mini-box-small text-white opacity-70">Checkout</small>
+                </div>
+                <div class="invoice__left-mini-box-text-wrapp flex justify-between items-center mb-6">
+                  <div class="flex flex-col">
+                    <span class="text-text">Total</span>
+                    <span class="text-white font-medium">$210</span>
+                  </div>
+                  <button
+                    class="btn invoice__btn d-block  hero__spann change px-3 py-2 ml-14 bg-getStarted border-2 rounded-lg"
+                    type="button" aria-label="Button to change payment method">Change</button>
+                </div>
+                <button class="btn w-100 make bg-getStarted font-medium px-12 py-2 rounded-xl text-xs leading-5"
+                  type="button" aria-label="Tap to make payment">Make Payment</button>
+              </div>
+              <span
+                class="invoice__left-done d-block absolute w-full left-60 font-medium text-sm py-4 pr-5 pl-14 rounded-xl bg-white">Great!
+                Your Payment is succesfully.
+              </span>
+              <span class="invoice__decor absolute -top-44 -left-48 inline-block w-48 h-80 bg-white"></span>
+            </div>
+          </div>
+          <div class="invoice__right w-full max-w-md">
+            <h2 class="invoice__title font-semibold text-3xl md:text-5xl mb-6 text-white">Easily control your billing &
+              invoicing.</h2>
+            <p class="invoice__desc mb-12 text-text">
+              A company may send you an invoice for services performed but upon receipt you see it as a bill. Using the
+              word invoice can imply that payment terms, such as NET-30 days, have been established — whereas a bill is
+              a simple statement of what is due now.
+            </p>
+            <span class="invoice__app-stores">
+              <span class="invoice__app-left relative inline-block bg-black w-auto py-2 pr-2 pl-16">
+                <span class="invoice__app-title text-xs text-white">Download on the <br>
+                  <span class="invoice__app-strong inline-block text-xl ">App Store</span>
+                </span>
+              </span>
+              <span class="invoice__app-right relative inline-block w-auto py-2 pr-2 pl-16  bg-black">
+                <span class="invoice__app-title text-xs text-white">GET IT ON <br>
+                  <span class="invoice__app-strong text-xl">Google Play</span>
+                </span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cards pt-52">
+      <div class="container mx-auto">
+        <div class="cards__main-box flex flex-col lg:flex-row">
+          <div class="cards__text-box w-full max-w-3xl lg:max-w-lg">
+            <h2 class="cards__title text-white font-semibold text-3xl leading-8 md:text-5xl md:leading-relaxed mb-6">
+              Find a better card deal in few easy steps.</h2>
+            <p class="cards__desc text-text text-lg mb-8">
+              A Credit Card is no longer a luxury. It’s a must-have accessory in your wallet. A Credit Card brings a
+              world of convenience, interest free period, discounts, CashBacks and Rewards Points.
+            </p>
+            <a class="about__link inline-block font-medium bg-getStarted py-5 px-8 rounded-xl" href="#">Get started</a>
+          </div>
+          <div
+            class="cards__box relative lg:static flex flex-col sm:flex-row items-center  lg:flex-wrap justify-center pt-28  bg-cards bg-no-repeat bg-center">
+            <div
+              class="cards__left relative before:absolute before:top-4 before:left-16 bg-invoice shadow-invoice w-48 mr-6 xl:mr-16 px-1 mb-9 sm:mb-0 md:px-5 pt-16 pb-5 rounded-2xl">
+              <h3 class="cards__left-title text-white font-semibold mb-1 text-center">Scan Credit Cards</h3>
+              <p class="cards__left-desc text-text text-center text-xs leading-5">
+                Scan yourcredit card in 4 minutes.
+              </p>
+            </div>
+            <div class="cards__right mb-8">
+              <div class="cards__right-box bg-invoice shadow-invoice w-64 p-5 rounded-2xl">
+                <div class="cards__right-box-top flex justify-between items-center mb-5">
+                  <h3 class="cards__right-title text-white font-semibold">Online Analysis</h3>
+                  <select
+                    class="cards__right-select pay-select block mt-1 bg-transparent text-white text-xs focus:ouline-none">
+                    <option value="1">1 Month</option>
+                    <option value="2">1 Week</option>
+                    <option value="3">1 Day</option>
+                  </select>
+                </div>
+                <div class="cards__right-box-center flex justify-between items-center mb-5">
+                  <span class="flex flex-col font-medium text-xs text-income">$ 2,334,67<span
+                      class="font-normal">Income</span></span>
+                  <span class="flex flex-col font-medium text-xs text-expenses">$ 5.31M
+                    <span class="font-normal">Expenses</span>
+                  </span>
+                </div>
+
+                <img class="mb-6" src="./images/analysis.svg" width="216" height="65" alt="Analysis diagram">
+                <div
+                  class="cards__right-box-months months text-xs flex items-center space-x-2 text-white text-opacity-70">
+                  <div class="cards__radios">
+                    <input class="m-0 p-0 appearance-none" id="jan" type="radio" name="month" value="January" />
+                    <label class="months january" for="jan">Jan</label>
+                    <input class="m-0 p-0 appearance-none" id="feb" type="radio" name="month" value="February" />
+                    <label class="months february" for="feb">Feb</label>
+                    <input class="m-0 p-0 appearance-none" id="mar" type="radio" checked name="month" value="Mart" />
+                    <label class="months nart" for="mar">Mar</label>
+                    <input class="m-0 p-0 appearance-none" id="apr" type="radio" name="month" value="April" />
+                    <label class="months nart" for="apr">Apr</label>
+                    <input class="m-0 p-0 appearance-none" id="may" type="radio" name="month" value="May" />
+                    <label class="months nart" for="may">May</label>
+                    <input class="m-0 p-0 appearance-none" id="june" type="radio" name="month" value="June" />
+                    <label class="months nart" for="june">Jun</label>
+                    <input class="m-0 p-0 appearance-none" id="july" type="radio" name="month" value="July" />
+                    <label class="months nart" for="july">Jul</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="cards__bottom absolute lg:static top-96 left-0 md:left-2/4 rounded-2xl bg-invoice shadow-invoice w-64 p-5 inline-block">
+              <select class="font-semibold pay-select bg-transparent w-52 mb-4 text-white focus:outline-none ">
+                <option selected disabled>Pay Method</option>
+                <option value="1">Paypal</option>
+                <option value="2">Apple Pay</option>
+                <option value="3">VISA</option>
+                <option value="4">Shopify</option>
+              </select>
+              <ul class="list-unstyled flex items-center space-x-2">
+                <li>
+                  <img src="./images/paypal.svg" width="48" height="48" alt="">
+                </li>
+                <li>
+                  <img src="./images/apple-pay.svg" width="48" height="48" alt="">
+                </li>
+                <li>
+                  <img src="./images/visa.svg" width="48" height="48" alt="">
+                </li>
+                <li>
+                  <img src="./images/shopify.svg" width="48" height="48" alt="">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="peoples pt-44">
+      <div class="container mx-auto">
+        <div
+          class="peoples__txt-box flex flex-col md:flex-row justify-between items-start md:items-center mb-10 lg:mb-20">
+          <div class="w-full max-w-2xl md:max-w-md">
+            <h3 class="peoples__title font-semibold text-3xl leading-8 md:text-5xl md:leading-relaxed text-white">What
+              people are saying about us</h3>
+          </div>
+          <div class="w-full max-w-2xl md:max-w-md relative">
+            <p class="peoples__desc text-text">
+              Everything you need to accept card payments and grow your business anywhere on the planet.
+            </p>
+          </div>
+        </div>
+        <span class="peoples__decor inline-block absolute right-0 bg-peoples-decor w-64 h-96 bg-white"></span>
+        <ul class="peoples__list flex flex-wrap lg:flex-nowrap justify-center lg:justify-start list-none mb-24 p-0">
+          <li
+            class="peoples__item w-full max-w-sm px-10 pt-32 pb-10 bg-peoples rounded-2xl md:mr-8 xl:mr-16 relative before:absolute before:top-14 before:w-11 before:h-7 before:bg-no-repeat before:bg-contain ">
+            <p class="peoples__name text-white text-lg pb-7">
+              Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+            </p>
+            <div class="peoples__item-bottom-box flex">
+              <img class="rounded-full" src="./images/us-herman.jpg" width="48" height="48" alt="Herman Jensen">
+              <div class="ml-4">
+                <p class="peoples__text text-xl text-white">Herman Jensen</p>
+                <span class="text-text">Founder & Leader</span>
+              </div>
+            </div>
+          </li>
+          <li
+            class="peoples__item relative before:absolute before:top-14 before:w-11 before:h-7 before:bg-no-repeat before:bg-contain w-full max-w-sm pt-32 md:mr-8 xl:mr-16">
+            <p class="peoples__text text-white text-lg pb-16">
+              Money makes your life easier. If you're lucky to have it, you're lucky.
+            </p>
+            <div class="peoples__item-bottom-box flex">
+              <img class="rounded-full" src="./images/us-steve.jpg" width="48" height="48" alt="Steve Mark">
+              <div class="ml-4">
+                <p class="peoples__name text-xl text-white">Steve Mark</p>
+                <span class="text-text">Founder & Leader</span>
+              </div>
+            </div>
+          </li>
+          <li
+            class="peoples__item relative before:absolute before:top-14 before:w-11 before:h-7 before:bg-no-repeat before:bg-contain w-full max-w-sm pt-32 mt-14 md:mt-0">
+            <p class=" text-white text-lg pb-7">
+              It is usually people in the money business, finance, and international trade that are really rich.
+            </p>
+            <div class="peoples__item-bottom-box flex">
+              <img class="rounded-full" src="./images/us-kenn.jpg" width="48" height="48" alt="Kenn Gallagher">
+              <div class="ml-4">
+                <p class="peoples__name text-xl text-white">Kenn Gallagher</p>
+                <span class="text-text">Founder & Leader</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul
+          class="peoples__partners-list partners flex flex-wrap items-center justify-center md:flex-row text-center smd:justify-between list-none mb-24">
+          <li class="partners__item mb-6 smd:mb-0">
+            <img class="inline-block" src="./images/bnb.svg" width="192" height="60" alt="Airbnb's logo">
+          </li>
+          <li class="partners__item mb-6 smd:mb-0">
+            <img class="inline-block" src="./images/binance.svg" width="192" height="60" alt="Binance's logo">
+          </li>
+          <li class="partners__item mb-6 smd:mb-0">
+            <img class="inline-block" src="./images/coinbase.svg" width="189" height="60" alt="Coinbase's logo">
+          </li>
+          <li class="partners__item mb-6 smd:mb-0">
+            <img class="inline-block" src="./images/dropbox.svg" width="192" height="60" alt="Dropbox's logo">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <article class="try mb-20">
+      <div class="container mx-auto">
+        <div class="try__main-box bg-aboutUs p-5 md:py-16 md:px-24 rounded-3xl ">
+          <div class="try__wrapper flex flex-col items-center md:flex-row md:justify-between">
+            <div class="try__left w-full md:max-w-sm  mb-9 smd:mb-0">
+              <h3 class="try__title font-semibold text-white mb-6 text-3xl left-5 md:text5xl md:leading-relaxed">Let’s
+                try our service now!</h3>
+              <p class="try__desc text-text">
+                Everything you need to accept card payments <br class="hidden smd:block"> and grow your business
+                anywhere on the planet.
+              </p>
+            </div>
+            <a class="try__link inline-block font-medium bg-getStarted py-5 px-8 rounded-xl" href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer class="footer bg-footer pt-10 md:pt-20 pb-8">
+    <div class="container mx-auto">
+      <div
+        class="footer__box flex flex-col items-center text-center md:flex-row md:items-start md:text-start justify-between mb-10">
+        <div class="footer__left mb-8 md:mb-0">
+          <a class="inline-block mb-8" href="./index.html">
+            <svg width="266" height="73" viewBox="0 0 266 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M107.487 29.2599V57.9067H101.725V45.4498H89.4707V57.9067H83.7494V29.2599H89.4707V40.8647H101.725V29.2599H107.487ZM123.063 35.1434C125.255 35.1434 127.216 35.6033 128.947 36.523C130.705 37.4428 132.085 38.7818 133.086 40.5401C134.087 42.2713 134.587 44.3137 134.587 46.6671C134.587 49.0205 134.087 51.0629 133.086 52.7941C132.085 54.5254 130.705 55.8644 128.947 56.8112C127.216 57.7309 125.255 58.1908 123.063 58.1908C120.872 58.1908 118.898 57.7309 117.139 56.8112C115.408 55.8644 114.042 54.5254 113.041 52.7941C112.04 51.0629 111.54 49.0205 111.54 46.6671C111.54 44.3137 112.04 42.2713 113.041 40.5401C114.042 38.7818 115.408 37.4428 117.139 36.523C118.898 35.6033 120.872 35.1434 123.063 35.1434ZM123.063 40.0938C121.467 40.0938 120.115 40.6618 119.006 41.798C117.897 42.907 117.342 44.5301 117.342 46.6671C117.342 48.8041 117.897 50.4407 119.006 51.5768C120.115 52.6859 121.467 53.2405 123.063 53.2405C124.659 53.2405 126.012 52.6859 127.121 51.5768C128.23 50.4407 128.785 48.8041 128.785 46.6671C128.785 44.5301 128.23 42.907 127.121 41.798C126.012 40.6618 124.659 40.0938 123.063 40.0938ZM149.018 35.1434C151.209 35.1434 153.17 35.6033 154.901 36.523C156.66 37.4428 158.039 38.7818 159.04 40.5401C160.041 42.2713 160.542 44.3137 160.542 46.6671C160.542 49.0205 160.041 51.0629 159.04 52.7941C158.039 54.5254 156.66 55.8644 154.901 56.8112C153.17 57.7309 151.209 58.1908 149.018 58.1908C146.827 58.1908 144.852 57.7309 143.094 56.8112C141.363 55.8644 139.996 54.5254 138.996 52.7941C137.995 51.0629 137.494 49.0205 137.494 46.6671C137.494 44.3137 137.995 42.2713 138.996 40.5401C139.996 38.7818 141.363 37.4428 143.094 36.523C144.852 35.6033 146.827 35.1434 149.018 35.1434ZM149.018 40.0938C147.422 40.0938 146.069 40.6618 144.96 41.798C143.851 42.907 143.297 44.5301 143.297 46.6671C143.297 48.8041 143.851 50.4407 144.96 51.5768C146.069 52.6859 147.422 53.2405 149.018 53.2405C150.614 53.2405 151.966 52.6859 153.076 51.5768C154.185 50.4407 154.739 48.8041 154.739 46.6671C154.739 44.5301 154.185 42.907 153.076 41.798C151.966 40.6618 150.614 40.0938 149.018 40.0938Z"
+                fill="white" />
+              <path
+                d="M180.572 43.137C182.303 43.4886 183.683 44.3137 184.711 45.6121C185.766 46.8835 186.293 48.3848 186.293 50.1161C186.293 52.5236 185.482 54.4307 183.859 55.8373C182.263 57.2169 179.936 57.9067 176.88 57.9067H164.585V29.2599H176.636C179.531 29.2599 181.749 29.8956 183.291 31.167C184.86 32.4384 185.644 34.2237 185.644 36.523C185.644 38.3084 185.171 39.7691 184.224 40.9053C183.304 42.0414 182.087 42.7853 180.572 43.137ZM170.306 41.2705H175.459C176.893 41.2705 177.975 40.9594 178.706 40.3372C179.463 39.688 179.842 38.7683 179.842 37.578C179.842 36.3878 179.476 35.4681 178.746 34.8188C178.016 34.1696 176.893 33.845 175.378 33.845H170.306V41.2705ZM175.743 53.2405C177.258 53.2405 178.421 52.9159 179.233 52.2666C180.045 51.5904 180.45 50.6165 180.45 49.3451C180.45 48.0738 180.031 47.0999 179.192 46.4237C178.381 45.7203 177.218 45.3687 175.703 45.3687H170.306V53.2405H175.743ZM199.107 35.1434C201 35.1434 202.623 35.5898 203.976 36.4825C205.329 37.3751 206.289 38.5789 206.857 40.0938V35.4275H212.538V57.9067H206.857V53.1999C206.289 54.7147 205.329 55.932 203.976 56.8518C202.623 57.7444 201 58.1908 199.107 58.1908C197.213 58.1908 195.509 57.7309 193.994 56.8112C192.479 55.8915 191.289 54.566 190.423 52.8347C189.585 51.0764 189.166 49.0205 189.166 46.6671C189.166 44.3137 189.585 42.2713 190.423 40.5401C191.289 38.7818 192.479 37.4428 193.994 36.523C195.509 35.6033 197.213 35.1434 199.107 35.1434ZM200.892 40.1343C199.107 40.1343 197.673 40.7159 196.591 41.8791C195.509 43.0423 194.968 44.6383 194.968 46.6671C194.968 48.6959 195.509 50.2919 196.591 51.4551C197.673 52.5912 199.107 53.1593 200.892 53.1593C202.623 53.1593 204.044 52.5777 205.153 51.4145C206.289 50.2243 206.857 48.6418 206.857 46.6671C206.857 44.6653 206.289 43.0829 205.153 41.9197C204.044 40.7294 202.623 40.1343 200.892 40.1343ZM231.113 35.1029C233.709 35.1029 235.779 35.955 237.321 37.6592C238.863 39.3634 239.634 41.7574 239.634 44.8412V57.9067H233.953V45.4904C233.953 43.705 233.493 42.3254 232.573 41.3516C231.654 40.3507 230.396 39.8503 228.8 39.8503C227.177 39.8503 225.878 40.3778 224.904 41.4328C223.931 42.4878 223.444 44.0026 223.444 45.9773V57.9067H217.722V35.4275H223.444V39.9314C224.039 38.4166 225.013 37.2399 226.365 36.4013C227.745 35.5357 229.327 35.1029 231.113 35.1029ZM257.814 57.9067L250.389 48.0873V57.9067H244.668V27.8803H250.389V44.76L257.774 35.4275H264.55L255.096 46.6265L264.793 57.9067H257.814Z"
+                fill="#5CE1E6" />
+              <path
+                d="M36.0678 0C28.9343 -8.50666e-08 21.9609 2.11534 16.0296 6.07852C10.0983 10.0417 5.47539 15.6747 2.7455 22.2652C0.0156126 28.8558 -0.698651 36.1078 0.693031 43.1043C2.08471 50.1007 5.51984 56.5274 10.564 61.5716C15.6082 66.6157 22.0348 70.0509 29.0313 71.4426C36.0278 72.8342 43.2798 72.12 49.8703 69.3901C56.4609 66.6602 62.0939 62.0373 66.0571 56.106C70.0202 50.1747 72.1356 43.2013 72.1356 36.0678L54.1017 36.0678C54.1017 39.6346 53.044 43.1212 51.0624 46.0869C49.0808 49.0526 46.2643 51.364 42.9691 52.7289C39.6738 54.0939 36.0478 54.451 32.5495 53.7552C29.0513 53.0593 25.838 51.3418 23.3159 48.8197C20.7938 46.2976 19.0763 43.0843 18.3804 39.586C17.6846 36.0878 18.0417 32.4618 19.4066 29.1665C20.7716 25.8713 23.083 23.0547 26.0487 21.0732C29.0144 19.0916 32.501 18.0339 36.0678 18.0339V0Z"
+                fill="white" />
+              <path
+                d="M36.0678 0C31.3313 -5.64821e-08 26.6412 0.932921 22.2652 2.7455C17.8893 4.55807 13.9132 7.21481 10.564 10.564C7.21481 13.9132 4.55807 17.8893 2.7455 22.2653C0.93292 26.6412 -7.1519e-07 31.3313 0 36.0678H18.0339C18.0339 33.6996 18.5004 31.3545 19.4066 29.1665C20.3129 26.9785 21.6413 24.9905 23.3159 23.3159C24.9905 21.6413 26.9785 20.3129 29.1665 19.4066C31.3545 18.5004 33.6996 18.0339 36.0678 18.0339V0Z"
+                fill="#5CE1E6" />
+              <circle cx="36.0678" cy="36.0678" r="11.2712" fill="#5CE1E6" />
+              <path
+                d="M47.339 36.0678C47.339 34.5877 47.0475 33.122 46.481 31.7545C45.9146 30.387 45.0844 29.1445 44.0377 28.0979C42.9911 27.0513 41.7486 26.221 40.3811 25.6546C39.0136 25.0882 37.548 24.7966 36.0678 24.7966C34.5876 24.7966 33.122 25.0882 31.7545 25.6546C30.387 26.221 29.1445 27.0513 28.0979 28.0979C27.0512 29.1445 26.221 30.387 25.6546 31.7545C25.0882 33.122 24.7966 34.5877 24.7966 36.0678L36.0678 36.0678H47.339Z"
+                fill="white" />
+            </svg>
+          </a>
+          <p class="footer__left-desc text-text">
+            A new way to make the payments <br> easy, reliable and secure.
+          </p>
+        </div>
+        <div class="footer__center mb-8 md:mb-0">
+          <strong class="footer__strong font-medium text-lg text-white mb-6">Usefull Links</strong>
+          <ul class="footer__center-list links text-text list-none flex flex-col">
+            <li class="links__item mb-3">
+              <a class="links__link" href="#">Content</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#">Create</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#"> Explore</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#"> Terms & Services</a>
+            </li>
+            <li class="links__item">
+              <a class="links__link" href="#"> How it Works</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__center mb-8 md:mb-0">
+          <strong class="footer__strong font-medium text-lg text-white mb-6"> Community</strong>
+          <ul class="footer__center-list links text-text list-none flex flex-col">
+            <li class="links__item mb-3">
+              <a class="links__link" href="#"> Help Center</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#">Partners</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#"> Suggestions</a>
+            </li>
+            <li class="links__item mb-3">
+              <a class="links__link" href="#">Blog</a>
+            </li>
+            <li class="links__item">
+              <a class="links__link" href="#">Newsletters</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__right mb-8 md:mb-0">
+          <strong class="footer__strong font-medium text-lg text-white mb-6">Partner</strong>
+          <ul class="footer__center-list links text-text list-none flex flex-col">
+            <li class="links__item mb-3">
+              <a class="links__link" href="#"> Our Partner</a>
+            </li>
+            <li class="links__item">
+              <a class="links__link" href="#">Become a Partner</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="text-white opacity-30 mb-9">
+      <div class="footer__bottom flex flex-col-reverse items-center md:flex-row justify-between">
+        <p class="text-text">
+          Copyright © 2021 Hoobank. All rights reserved.
+        </p>
+        <ul class="footer__bottom social flex space-x-7 mb-8 md:mb-0">
+          <li class="social__item">
+            <a href="https://instagram.com" target="_blank">
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.9466 6.17408C20.8974 5.05826 20.7169 4.29115 20.4584 3.62644C20.1917 2.92086 19.7814 2.28916 19.2438 1.76402C18.7186 1.23071 18.0826 0.816309 17.3851 0.553821C16.7164 0.295339 15.9531 0.114899 14.8371 0.0657021C13.7127 0.0123392 13.3558 0 10.5041 0C7.65239 0 7.29545 0.0123392 6.17525 0.0615356C5.05923 0.110732 4.29197 0.291333 3.62729 0.549654C2.92142 0.816309 2.28959 1.22655 1.76436 1.76402C1.23095 2.28916 0.816625 2.92503 0.553926 3.62243C0.295395 4.29115 0.114921 5.0541 0.0657146 6.16991C0.0123415 7.29406 0 7.65093 0 10.5021C0 13.3532 0.0123415 13.7101 0.0615474 14.8301C0.110753 15.9459 0.291388 16.713 0.549919 17.3777C0.816625 18.0833 1.23095 18.715 1.76436 19.2401C2.28959 19.7735 2.92558 20.1879 3.62312 20.4503C4.29197 20.7088 5.05506 20.8893 6.17125 20.9385C7.29128 20.9878 7.64839 21 10.5001 21C13.3518 21 13.7087 20.9878 14.8289 20.9385C15.9449 20.8893 16.7122 20.7088 17.3769 20.4503C18.7885 19.9047 19.9045 18.7889 20.4502 17.3777C20.7086 16.709 20.8892 15.9459 20.9385 14.8301C20.9877 13.7101 21 13.3532 21 10.5021C21 7.65093 20.9958 7.29406 20.9466 6.17408ZM19.0552 14.748C19.01 15.7736 18.8377 16.3275 18.6941 16.6967C18.3411 17.6115 17.6149 18.3376 16.6999 18.6905C16.3306 18.8341 15.7726 19.0063 14.7509 19.0514C13.643 19.1007 13.3107 19.1129 10.5083 19.1129C7.70576 19.1129 7.36934 19.1007 6.26549 19.0514C5.2397 19.0063 4.68578 18.8341 4.31649 18.6905C3.86114 18.5222 3.44665 18.2556 3.11023 17.9069C2.76146 17.5663 2.49475 17.1561 2.32646 16.7008C2.18285 16.3316 2.01055 15.7736 1.96551 14.7522C1.91614 13.6446 1.90396 13.3122 1.90396 10.5103C1.90396 7.7083 1.91614 7.37194 1.96551 6.26846C2.01055 5.24287 2.18285 4.68905 2.32646 4.31983C2.49475 3.86441 2.76146 3.45016 3.11439 3.11364C3.45483 2.76494 3.86514 2.49828 4.32066 2.33018C4.68994 2.1866 5.24804 2.01433 6.26966 1.96914C7.37751 1.91994 7.70993 1.9076 10.5123 1.9076C13.3189 1.9076 13.6512 1.91994 14.755 1.96914C15.7808 2.01433 16.3347 2.1866 16.704 2.33018C17.1594 2.49828 17.5739 2.76494 17.9103 3.11364C18.2591 3.45417 18.5258 3.86441 18.6941 4.31983C18.8377 4.68905 19.01 5.24687 19.0552 6.26846C19.1044 7.3761 19.1167 7.7083 19.1167 10.5103C19.1167 13.3122 19.1044 13.6404 19.0552 14.748Z"
+                  fill="white" />
+                <path
+                  d="M10.5 6C8.01567 6 6 8.01554 6 10.5C6 12.9845 8.01567 15 10.5 15C12.9845 15 15 12.9845 15 10.5C15 8.01554 12.9845 6 10.5 6ZM10.5 13.419C8.88829 13.419 7.58096 12.1118 7.58096 10.5C7.58096 8.88816 8.88829 7.58096 10.5 7.58096C12.1118 7.58096 13.419 8.88816 13.419 10.5C13.419 12.1118 12.1118 13.419 10.5 13.419Z"
+                  fill="white" />
+                <path
+                  d="M18 5.5C18 6.32835 17.3284 7 16.4999 7C15.6716 7 15 6.32835 15 5.5C15 4.67146 15.6716 4 16.4999 4C17.3284 4 18 4.67146 18 5.5Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://facebook.com" target="_blank">
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.5001 0C4.7011 0 0 4.72075 0 10.544C0 15.7667 3.78548 20.092 8.74886 20.9296V12.7437H6.21594V9.79796H8.74886V7.62588C8.74886 5.10564 10.2817 3.73225 12.5209 3.73225C13.5934 3.73225 14.515 3.8125 14.7826 3.84784V6.48217L13.2295 6.48292C12.012 6.48292 11.7773 7.06377 11.7773 7.91643V9.79645H14.6824L14.3035 12.7422H11.7773V21C16.9724 20.3651 21 15.9296 21 10.5409C21 4.72075 16.2989 0 10.5001 0Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://twitter.com" target="_blank">
+              <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23 2.24931C22.1447 2.63077 21.2333 2.88362 20.2831 3.00638C21.2606 2.413 22.0067 1.48054 22.3574 0.356615C21.4461 0.909077 20.4398 1.29931 19.3674 1.51708C18.5021 0.580231 17.2687 0 15.9232 0C13.3127 0 11.2111 2.15431 11.2111 4.79531C11.2111 5.17531 11.2427 5.54069 11.3203 5.88854C7.40025 5.69415 3.93156 3.78392 1.60137 0.874C1.19456 1.59162 0.955938 2.413 0.955938 3.29723C0.955938 4.95754 1.79688 6.42931 3.05037 7.28138C2.29281 7.26677 1.54962 7.04315 0.92 6.69092C0.92 6.70554 0.92 6.72454 0.92 6.74354C0.92 9.07323 2.55444 11.0083 4.69775 11.4541C4.31394 11.5608 3.89562 11.6119 3.4615 11.6119C3.15963 11.6119 2.85487 11.5944 2.56881 11.5301C3.17975 13.4286 4.91338 14.8244 6.97475 14.8697C5.3705 16.1456 3.33356 16.9144 1.12844 16.9144C0.74175 16.9144 0.370875 16.8968 0 16.8486C2.08869 18.2181 4.56406 19 7.2335 19C15.9102 19 20.654 11.6923 20.654 5.358C20.654 5.14608 20.6468 4.94146 20.6367 4.73831C21.5726 4.06308 22.3589 3.21977 23 2.24931Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://linkedin.com" target="_blank">
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.4855 0H1.51453C0.67804 0 0 0.67804 0 1.51453V19.4855C0 20.322 0.67804 21 1.51453 21H19.4855C20.322 21 21 20.322 21 19.4855V1.51453C21 0.67804 20.322 0 19.4855 0V0ZM7.44882 15.873H4.89159V8.17957H7.44882V15.873ZM6.17029 7.12903H6.15363C5.2955 7.12903 4.74051 6.53831 4.74051 5.80003C4.74051 5.04508 5.31248 4.4707 6.18727 4.4707C7.06206 4.4707 7.60039 5.04508 7.61705 5.80003C7.61705 6.53831 7.06206 7.12903 6.17029 7.12903ZM16.6696 15.873H14.1127V11.7572C14.1127 10.7229 13.7425 10.0174 12.8172 10.0174C12.1108 10.0174 11.6901 10.4933 11.5052 10.9526C11.4376 11.117 11.4211 11.3467 11.4211 11.5767V15.873H8.86402C8.86402 15.873 8.89751 8.90135 8.86402 8.17957H11.4211V9.26889C11.7609 8.74466 12.3689 7.99901 13.7257 7.99901C15.4081 7.99901 16.6696 9.09858 16.6696 11.4616V15.873Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

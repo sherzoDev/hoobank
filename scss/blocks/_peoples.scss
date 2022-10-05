@@ -1,0 +1,17 @@
+.peoples__item {
+    &::before{ 
+        background-image: url("../images/us-item-decor.svg");
+    }
+}
+
+.peoples__item:nth-child(2),
+.peoples__item:nth-child(3) {
+    &::before{ 
+        opacity: .7;
+    }
+}
+
+.peoples__decor {
+    border-radius: 100px;
+    filter: blur(205px);
+}

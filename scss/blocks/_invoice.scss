@@ -1,0 +1,214 @@
+.invoice__left-box {
+    backdrop-filter: blur(15.2011px);
+}
+.invoice__app-left::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 48px;
+    height: 49px;
+    background-image: url("../images/apple-64.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.invoice__app-right::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 2px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/play-market.svg");
+}
+
+.transaction__item::before {
+    content: " ";
+    position: absolute;
+    top: 82px;
+    left: 33px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/dribble.svg");
+}
+
+.transaction__item:nth-child(2)::before {
+    content: "";
+    top: 146px;
+    background-image: url("../images/netflix.svg");
+}
+
+.transaction__item:nth-child(3)::before {
+    content: "";
+    top: 204px;
+    background-image: url("../images/manulife.svg");
+}
+
+.transaction__currency{
+    position: relative;
+    display: inline-block;
+}
+
+.transaction__currency::before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: -21px;
+    width: 15px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/price-down.svg");
+}
+
+.transaction__currency--active::before {
+    content: " ";
+    position: absolute;
+    top: 3px;
+    left: -21px;
+    width: 15px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/price-up.svg");
+}
+
+.invoice__left {
+
+}
+
+.invoice__left-mini-box {
+    top: -52%;
+    left: 69%;
+} 
+
+.invoice__left-mini-box-text-wrap::before {
+    content: " ";
+    position: absolute;
+    top: 3px;
+    left: -85px;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/paypal.svg");
+}
+
+.invoice__btn{
+    border-color: #5CE1E6;
+    
+}
+
+.invoice__left-done{
+    max-width: 324px;
+}
+
+.invoice__left-done::before {
+    content: " ";
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/payment-done.svg");
+}
+
+@media only screen and (max-width:1057px) {
+    .invoice__left-done {
+        left: 13rem;
+    }
+}
+
+.invoice__decor{
+    filter: blur(225px);
+}
+
+@media only screen and (max-width: 1024px) {
+    .invoice__left-mini-box {
+        top: 0;
+        left: 602px;
+    }
+
+    .invoice__left-done {
+        left: 35rem;
+    }
+    .invoice__right {
+        max-width: 41rem;
+    }
+}
+
+@media only screen and (max-width:925px) { 
+    .invoice__left-mini-box {
+        left: 423px;
+    }
+
+    .invoice__left-done {
+        left: 26.5rem;
+    }
+}
+
+@media only screen and (max-width:787px) {
+    .invoice__left-box{
+        margin-bottom: 406px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .invoice__left-mini-box{
+        top: 301px;
+        left: 0;
+    }
+
+    .invoice__left-done {
+        top: 543px;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:447px) {
+    .invoice__left-box{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:371px) {
+    .invoice__left-box{
+        padding: 5px;
+    }
+
+    .transaction__item::before {
+        content: " ";
+        top: 44px;
+        left: 16px;
+    }
+    
+    .transaction__item:nth-child(2)::before {
+        content: "";
+        top: 88px;
+    }
+    
+    .transaction__item:nth-child(3)::before {
+        content: "";
+        top: 133px;
+    }
+
+    .invoice__app-left{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:363px) {
+    .invoice__left-done{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}

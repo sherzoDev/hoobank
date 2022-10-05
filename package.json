@@ -1,0 +1,16 @@
+{
+  "name": "hoobank-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "npx tailwindcss -i ./css/main.css -o ./css/tailwindcss.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "tailwindcss": "^3.1.8"
+  }
+}

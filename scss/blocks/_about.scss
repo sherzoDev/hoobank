@@ -1,0 +1,35 @@
+
+.about__left {
+    max-width: 622px;
+}
+
+@media only screen and (min-width:768px) {
+    
+    .about__title {
+        line-height: 76px;
+    }
+}
+
+.about__item::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #09977c1a;
+    background-image: url("../images/rewards.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about__item--active::before {
+    content: "";
+    background-image: url("../images/secur.svg");
+}
+
+.about__item-active::before {
+    content: "";
+    background-image: url("../images/transfer.svg");
+}

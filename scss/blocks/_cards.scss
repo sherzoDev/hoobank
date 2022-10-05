@@ -1,0 +1,44 @@
+.cards__left {
+    height: 191px;
+    &::before{
+        left: 1px;
+        width: 34px;
+        height: 34px;
+        background-image: url("../images/scan.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }    
+}
+
+.cards__radios {
+    cursor: pointer;
+    input:checked + .months{
+        padding: 4px;
+        color: #14101D;
+        background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+        border-radius: 5px;
+    }
+}
+
+.months{
+    cursor: pointer;
+    transition: all 100ms ease-in;
+}
+
+.pay-select {
+    option[value="1"],
+    option[value="2"],
+    option[value="3"],
+    option[value="4"]
+    {
+        color: #fff;
+        background-color: #14101D;
+    } 
+}
+
+@media only screen and (max-width:680px) {
+    .cards__bottom {
+        top: 597px;
+    }
+}
+
